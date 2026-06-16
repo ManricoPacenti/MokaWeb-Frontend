@@ -16,7 +16,7 @@ export default function ProtectedRoute({
   if (loading) {
     return (
       <main className="container py-5">
-        <p>Caricamento...</p>
+        <p>Loading...</p>
       </main>
     );
   }
